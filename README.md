@@ -1,7 +1,9 @@
+#### byteball-rpc-client
+
 byteball-rpc-client is a python library to interact with the [headless byteball](https://github.com/byteball/headless-byteball)'s 
 RPC interface. 
 
-In order to access the RPC service, you need to setup a private headless wallet with RPC enabled. Once you setup it,
+In order to access the RPC service, you need to [setup a private headless wallet with RPC enabled](https://github.com/byteball/headless-byteball/wiki/Running-RPC-service). Once you setup it,
 you can access to these methods via any programming language.
 
 - getinfo (State of then DAG)
@@ -149,5 +151,5 @@ wYy4kuIMJTnbnTGopBOmAsaeY16ArhfVD6UKLVZdb0g=
 
 #### Notes:
 
-Current RPC server doesn't have any authentication on RPC. So, make sure you take your
-own precautions if you use the RPC service on headless wallet.
+Current RPC server doesn't have any authentication. So, make sure you secure the
+access to the RPC server.
