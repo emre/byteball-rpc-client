@@ -16,7 +16,7 @@ you can access to these methods via any programming language.
 
 #### Installation
 
-```python
+```
 $ (sudo) pip install byteball_rpc_client
 ```
 
